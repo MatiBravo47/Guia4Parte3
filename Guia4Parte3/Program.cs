@@ -204,6 +204,28 @@ namespace Guia4Parte3
             }
             Console.ReadLine();
             */
+            /*
+             * 10. Calcular potencia de un numero 
+             * Consigna: Escribe un programa que calcule la potencia de un numero (base)
+             * elevado a un exponente dado. Usa un bucle for para multiplicar la base por 
+             * si misma tantas veces como indique el exponente y muestra el resultado por 
+             * consola.
+            */
+            /*
+            int resultado;
+            int numero, potencia;
+            Console.WriteLine("Ingrese un numero");
+            numero = int.Parse(Console.ReadLine());
+            Console.WriteLine("Ingrese potencia");
+            potencia = int.Parse(Console.ReadLine());
+            resultado = numero;
+            for (int i = 1; i < potencia; i++)
+            {
+                resultado = resultado * numero;   
+            }
+            Console.WriteLine(resultado);
+            Console.ReadLine();
+            */
         }
     }
 }
