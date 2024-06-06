@@ -226,6 +226,26 @@ namespace Guia4Parte3
             Console.WriteLine(resultado);
             Console.ReadLine();
             */
+            /*
+             * 11. Contar digitos en un numero
+             * Consigna: Escribe un programa que cuente el numero de digitos en
+             * un numero entero ingresado por el usuario. Utiliza un bucle while 
+             * para dividir el numero y contar los digitos, y muestra el resultado
+             * en la consola.
+            */
+            /*
+            int digitos = 0;
+            int cociente;
+            Console.WriteLine("Ingrese un numero");
+            cociente = int.Parse(Console.ReadLine());
+            while (cociente > 0)
+                {
+                    digitos++;
+                    cociente = cociente / 10;
+                };
+            Console.WriteLine(digitos);
+            Console.ReadLine();
+            */
         }
     }
 }
