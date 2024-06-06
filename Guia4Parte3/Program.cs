@@ -5,6 +5,7 @@ using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Serialization;
 
 namespace Guia4Parte3
 {
@@ -181,6 +182,25 @@ namespace Guia4Parte3
             else 
             {
                 Console.WriteLine("No es bisiesto");
+            }
+            Console.ReadLine();
+            */
+            /*
+             * 9. Invertir una cadena
+             * Consigna: Escribe un programa que invierta una cadena de texto
+             * ingresada por el usuario. Utiliza un bucle for para iterar a traves
+             * de los caracteres de la cadena en orden inverso y luego imprime la 
+             * cadena invertida.
+            */
+            /*
+            string texto;
+            int longitudTexto,j ;
+            Console.WriteLine("Ingrese una palabra");
+            texto = Console.ReadLine();
+            longitudTexto = texto.Length;
+            for (int i = longitudTexto - 1 ; i >= 0; i--)
+            {
+                Console.Write(texto[i]);
             }
             Console.ReadLine();
             */
