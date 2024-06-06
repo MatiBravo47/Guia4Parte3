@@ -67,13 +67,89 @@ namespace Guia4Parte3
              * numero dado. Use el bucle for para multiplicar los numeros y una
              * estructura if para manejar entradas no validas (como numeros negativos)
             */
+            /*
             int numero;
+            int factorial = 1;
             Console.WriteLine("Ingrese un numero");
             numero = int.Parse(Console.ReadLine());
-            for (int i = numero ; i > 0; i-- )
+            for (int i = 2 ; i <= numero; i++ )
             {
-                factorial = 
+                factorial = factorial * i; 
             }
+            Console.WriteLine(factorial);
+            Console.ReadLine();
+            */
+            /*
+             * 5. Contar vocales en una cadena 
+             * Consigna: Escribe un programa que cuente el numero de vocales 
+             * en una cadena de texto ingresada por el usuario. Utiliza un bucle
+             * for para iterar a traves de los caracteres y una estructura if para
+             * verificar si cada caracter es una vocal.
+            */
+            /*
+            string texto;
+            int longitudTexto;
+            int cantVocales = 0;
+            Console.WriteLine("Ingrese un texto");
+            texto = Console.ReadLine();
+            longitudTexto = texto.Length;
+            for (int i = 0; i < longitudTexto; i++) 
+            {
+                if (texto[i] == 'a' || texto[i] == 'e' || texto[i] == 'i' || texto[i] == 'o' || texto[i] == 'u')
+                {
+                    cantVocales++;
+                }
+            }
+            Console.WriteLine($"Cantidad de vocales en el texto: {cantVocales}");
+            Console.ReadLine();
+            */
+            /*
+             * 6. Numeros primos del 1 al 100 
+             * Consigna: Escribe un programa que imprima todos los numeros primos del 
+             * 1 al 100. Utiliza un bucle for para iterar a traves de los numeros y otro 
+             * bucle for junto con una estructura if para verificar si cada numero es primo 
+            */
+            /*
+            for (int i = 2; i <= 100; i++)
+            {
+                Boolean divisible = false;
+                for (int j = 2 ;j < i; j++)
+                {
+                    if (i % j == 0) 
+                    {
+                        divisible = true;
+                    }
+
+                }
+                if (divisible != true)
+                {
+                    Console.WriteLine(i);
+                }
+            }
+            Console.ReadLine();
+            */
+            /*
+             * 7. Numeros Fibonacci
+             * Consigna: Escribe un programa que imprima los primeros 10 
+             * numeros de la secuencia de fibonacci. Usa un bucle for para 
+             * generar los numeros y muestra cada numero en la consola.
+            */
+            /*
+            int fibonacci;
+            int numPosterior = 1;
+            int numAnterior = 1;
+            Console.WriteLine(numAnterior);
+            Console.WriteLine(numPosterior);
+            for (int i = 3; i <= 10; i++) 
+            {
+                fibonacci = numAnterior + numPosterior;
+                numAnterior = numPosterior;
+                numPosterior = fibonacci;
+                Console.WriteLine(fibonacci);
+            }
+            Console.ReadLine();
+            */
+
         }
     }
 }
