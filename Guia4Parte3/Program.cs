@@ -149,7 +149,41 @@ namespace Guia4Parte3
             }
             Console.ReadLine();
             */
-
+            /*
+             * 8. Determinar si un anio es bisiesto
+             * Consigna: Escribe un programa que determine si un anio
+             * dado es bisiesto. Utiliza una estructura if para aplicar 
+             * las reglas de los anios bisiestos y muestra el resultado en 
+             * la consola.
+            */
+            /*
+            int anio;
+            Console.WriteLine("Ingrese un anio");
+            anio = int.Parse(Console.ReadLine());
+            if (anio % 4 == 0 )
+            {
+                if (anio % 100 == 0 )
+                {
+                    if (anio % 400 == 0 ) 
+                    {
+                        Console.WriteLine("Es bisiesto");
+                    }
+                    else 
+                    {
+                        Console.WriteLine("No es bisiesto");
+                    }
+                }
+                else 
+                {
+                    Console.WriteLine("Es bisiesto"); 
+                }
+            }
+            else 
+            {
+                Console.WriteLine("No es bisiesto");
+            }
+            Console.ReadLine();
+            */
         }
     }
 }
