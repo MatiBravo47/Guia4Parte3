@@ -246,6 +246,36 @@ namespace Guia4Parte3
             Console.WriteLine(digitos);
             Console.ReadLine();
             */
+            /*
+             * 12. Suma de digitos de un numero
+             * Consigna: Escribe un programa que sume los digitos de un numero 
+             * entero ingresado por el usuario. Utiliza un bucle while para extraer
+             * y sumar los digitos, y muestra el resultado en la consola. Usa un bucle 
+             * for para iterar a traves de los digitos.
+            */
+            /*
+            int sumaDigitos = 0;
+            int numero, resto;
+            Console.WriteLine("Ingrese un numero");
+            numero = int.Parse(Console.ReadLine());
+            while (numero > 0)
+            {
+                resto = numero % 10;
+                sumaDigitos = sumaDigitos + resto;
+                numero = numero / 10;
+            };
+            Console.WriteLine(sumaDigitos);
+            Console.ReadLine();
+            */
+            //Falto bucle for para iterar a traves de los digitos no se como plantearlo :(
+            /*
+             * 13. Convertir temperaturas 
+             * Consigna: Escribe un programa que convierta una temperatura ingresada por el 
+             * usuario de Celsius a Fahrenheit y viceversa. Utiliza una estructura switch para 
+             * permitir al usuario elegir la conversion y un bucle for para soliticitar multiples
+             * conversiones.
+            */
+
         }
     }
 }
