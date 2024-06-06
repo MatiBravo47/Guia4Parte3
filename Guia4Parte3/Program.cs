@@ -1,4 +1,5 @@
 ﻿using System;
+using System.CodeDom.Compiler;
 using System.Collections.Generic;
 using System.Data;
 using System.Diagnostics.CodeAnalysis;
@@ -275,7 +276,32 @@ namespace Guia4Parte3
              * permitir al usuario elegir la conversion y un bucle for para soliticitar multiples
              * conversiones.
             */
-
-        }
+            /*
+            double temperatura; 
+            int opcion;
+            int conversiones;
+            Console.WriteLine("Cuantos conversiones desea hacer?");
+            conversiones = int.Parse(Console.ReadLine());
+            for (int i = 1; i <= conversiones; i++) 
+                {
+                Console.WriteLine("Ingrese temperatura");
+                temperatura = double.Parse(Console.ReadLine());
+                Console.WriteLine("Ingrese opcion");
+                Console.WriteLine("1. Pasar a Celsius");
+                Console.WriteLine("2. Pasar a Fahrenheit");
+                opcion = int.Parse(Console.ReadLine());
+                switch (opcion)
+                    {
+                    case 1: 
+                        Console.WriteLine((temperatura - 32) * 5 / 9);
+                        break;
+                    case 2:
+                        Console.WriteLine((temperatura * 9 / 5) + 32);
+                        break;
+                    }
+                }
+            Console.ReadLine();
+            */
+            }
     }
 }
